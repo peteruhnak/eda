@@ -4,7 +4,7 @@ REPORT
 
 **13.11. - 20.11.**
 
-`jtech Balik
+Vojtech Balik
 - Looked into Onigmo regex lib to see how hard would it be to use it. https://github.com/k-takata/Onigmo and also https://github.com/textmate/textmate (to see how they used it).
 - Decided it wouldn't be that hard and started experimenting with UFFI. Read through the booklet and asked on Discord about loading symbols from the library.
 Next week: Finish wrapping the Onigmo functions we will need and start reimplementing the internal structure for parse grammars (the one we did before sucks)
