@@ -1,4 +1,4 @@
-# Semestral project - Highlight a snippets
+# Semestral project - Highlighting a snippets
 REPORT
 
 
