@@ -1,4 +1,4 @@
-# Semestral project - Highlighting a snippets
+## Semestral project - Highlighting a snippets
 
 
 ### Weekly reports
@@ -8,7 +8,7 @@
 
 
 
-# Semestral project - Propojeni model-text
+## Semestral project - Propojeni model-text
 REPORT
 
 
