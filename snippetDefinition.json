@@ -1,0 +1,95 @@
+{
+  "snippets":[
+    {
+
+    "name": "Start Sequence Diagram",
+    "prefix":"starts",
+    "body": "\n@startuml\ntitle The Title\nactor Foo1\nbox \"A Box Title\" #LightBlue\nboundary Foo2\ncontrol Foo3\nend box\nentity Foo4\ndatabase Foo5\nparticipant Foo6 as Foo6 << Generated >>\nparticipant Foo7 << (F,#ADD1B2) >>\nFoo1 -> Foo2 : To boundary\nFoo1 -> Foo3 : To control\nactivate Foo3\ndeactivate Foo3\nFoo1 -> Foo4 : To entity\nnote left\n  a note\n  on several lines\nend note\n== More Features ==\nFoo1 -> Foo5 : To database\nFoo1 -> Foo6\nFoo1 -> Foo1 : To self\n||45||\nalt successful case\nFoo1 -> Foo2: Successful condition\nelse some kind of failure\nFoo1 -> Foo4: Failed condition\nend\n@enduml\n"
+  },
+  {
+    "name": "Start Use Case Diagram",
+    "prefix": "startu",
+    "body" : "@startuml\ntitle \"Use Case Title\"\n'actors\nactor User\nactor Admin\nactor \"Another Actor\" as AnotherActor\nUser <|-- Admin\n'use cases\nrectangle \"A Rectangle\" {\n  usecase UC3\n}\nusecase \"Use the application\" as UCUseTheApplication << Main >>\nusecase UC1 as \"You can use\nseveral lines to define your usecase.\nYou can also use separators.\n--\nSeveral separators are possible.\n==\nAnd you can add titles:\n..Conclusion..\nThis allows large description.\"\n' uses\nAnotherActor -> UCUseTheApplication\nAnotherActor -> UC3\nUser .up.> UC1\nUser --> UCUseTheApplication : A small label\n@enduml\n"
+  },
+  {
+    "name":"Start Activity Diagram",
+    "prefix": "starta",
+    "body": "@startuml\ntitle Servlet Container\n(*) --> \"ClickServlet.handleRequest()\"\n--> \"new Page\"\nif \"Page.onSecurityCheck\" then\n->[true] \"Page.onInit()\"\nif \"isForward?\" then\n->[no] \"Process controls\"\nif \"continue processing?\" then\n-->[yes] ===RENDERING===\nelse\n-->[no] ===REDIRECT_CHECK===\nendif\nelse\n-->[yes] ===RENDERING===\nendif\nif \"is Post?\" then\n-->[yes] \"Page.onPost()\"\n--> \"Page.onRender()\" as render\n--> ===REDIRECT_CHECK===\nelse\n-->[no] \"Page.onGet()\"\n--> render\nendif\nelse\n-->[false] ===REDIRECT_CHECK===\nendif\nif \"Do redirect?\" then\n->[yes] \"redirect request\"\n--> ==BEFORE_DESTROY===\nelse\nif \"Do Forward?\" then\n-left->[yes] \"Forward request\"\n--> ==BEFORE_DESTROY===\nelse\n-right->[no] \"Render page template\"\n--> ==BEFORE_DESTROY===\nendif\nendif\n--> \"Page.onDestroy()\"\n-->(*)\n@enduml\n"
+  },
+  {
+  "name": "Package",
+  "prefix": "pack",
+  "body": "package ${1:name} <<${2:Folder|Cloud|Rect|Database|Frame>>}"
+  },
+  {
+    "name": "Start Class Diagram",
+    "prefix": "startz",
+    "body": "@startuml\n' package and class defs\npackage BigPackage <<Folder>> {\n  class ArrayList\n  abstract class List\n  ArrayList .up.|> List\n  class Class13\n  class Class17\n  class Class18\n  class Class19\n  class Class20\n  enum TimeUnit {\n  DAYS\n  HOURS\n  MINUTES\n  }\n  annotation SuppressWarnings\n}\npackage java.lang <<Rect>> {\n  interface Runnable {\n    run():void\n  }\n}\npackage Package02 <<Cloud>> {\n  class Class01 {\n    {static}  -value1:string\n    ..\n    {abstract} #value2:string\n    ==\n    +value3:string\n    --\n    m(a: string):void\n  }\n  class Class02\n}\nclass Class15 <? extends Element > {\n}\npackage FPackage <<Frame>> {\n  class Class05\n  class Class06\n  class Class08\n}\npackage Package11 <<Database>> {\n  class Class10\n  class Class04\n  Class05 o-- Class06\n  Class05 .. Class08\n  Class05 -- Class10\n  Class04 *-- Class05\n}\nnote \"This is a floating note\" as N1\nClass01 -- N1\n' relationship\nClass01 <|-- Class02\nClass13 --> Class20 : uses >\nClass15 .> Class20 : label\nClass17 ..|> Class20\nClass19 <--* Class20\n@enduml\n"
+  },
+  {
+  "name": "Start Component Diagram",
+  "prefix": "startc",
+  "body": "@startuml\ntitle The Title\nskinparam componentStyle uml2\npackage \"Some Group\" {\n  interface HTTP as httpEndpoint\n  [First Component]\n  [Another Component]\n}\nnode \"Other Groups\" {\n  FTP - [Second Component]\n}\ncloud {\n  [Example 1]\n}\ndatabase \"MySql\" {\n  folder \"This is my folder\" {\n    [Folder 3]\n  }\n  frame \"Foo\" {\n    [Frame 4]\n  }\n}\nhttpEndpoint - [First Component]\n[First Component] --> FTP\n[Another Component] --> [Example 1]\n[Example 1] --> [Folder 3]\n@enduml\n"
+  },
+  {
+  "name":"Autonumber (Sequence diagrams)",
+    "prefix": "auto",
+    "body": "autonumber"
+  },
+  {
+  "name":"Autonumber Stop (Sequence Diagram)",
+    "prefix": "autos",
+    "body" : "autonumber stop"
+  },
+  {
+  "name": "Activate (Sequence Diagram)",
+  "prefix": "activ",
+  "body": "activate ${1:node}"
+  },
+  {
+  "name": "Deactivate (Sequence Diagram)",
+  "prefix": "activ",
+  "body": "deactivate ${1:node}"
+  },
+  {
+  "name": "Start State Diagram",
+  "prefix": "startt",
+  "body": "@startuml\ntitle The Title\n\n[*] --> NotShooting\nstate NotShooting {\n  [*] --> Idle\n  Idle --> Configuring : EvConfig\n  Configuring --> Idle : EvConfig\n}\nstate Configuring {\n  [*] --> NewValueSelection\n  NewValueSelection --> NewValuePreview : EvNewValue\n  NewValuePreview --> NewValueSelection : EvNewValueRejected\n  NewValuePreview --> NewValueSelection : EvNewValueSaved\n  state NewValuePreview {\n    State1 -> State2\n  }\n}\nnote left of NotShooting\n  out of ammo\nend note\nnote as N1\n  A note can also\n  be defined on\n  several lines\nend note\n\n@enduml\n"
+  },
+  {
+  "name": "Start Uml",
+  "prefix": "start",
+  "body": "@startuml\n\n@enduml\n"
+  },
+  {
+  "name": "New Page (Use Case Diagram)",
+  "prefix": "new",
+  "body": "newpackage"
+  },
+  {
+  "name": "Frame",
+  "prefix": "frame",
+  "body": "frame ${1:title} {\n\n}\n"
+  },
+  {
+  "name": "Folder",
+  "prefix": "folder",
+  "body": "folder ${1:title} {\n\n}\n"
+  },
+  {
+  "name": "Node",
+  "prefix": "node",
+  "body": "node \"${1:title}\" as ${2:alias} {\n\n}\n"
+  },
+  {
+  "name": "Database",
+  "prefix": "database",
+  "body": "database \"${1:title}\" as ${2:alias} {\n\n}\n"
+  },
+  {
+  "name": "Component",
+  "prefix": "comp",
+  "body": "component \"${1:title}\" as ${2:alias}\n"
+  }
+]
+}
