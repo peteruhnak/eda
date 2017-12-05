@@ -4,4 +4,6 @@
 
 **20.11. - 27.11.** - [2. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-2)
 
+**27.11. - 01.12.** - [3. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-3)
+
 
