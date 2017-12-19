@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "TerezaZivnustkova 12/19/2017 16:00",
+	"super" : "Object",
+	"category" : "EDA-Editor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"autocomplete",
+		"snippetHandler",
+		"text"
+	],
+	"name" : "EdaEditor",
+	"type" : "normal"
+}

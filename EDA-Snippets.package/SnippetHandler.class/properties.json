@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EDA-Snippets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"snippets"
+	],
+	"name" : "SnippetHandler",
+	"type" : "normal"
+}
