@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "VojtechBalik 11/21/2017 21:33",
+	"super" : "Object",
+	"category" : "Onigmo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string",
+		"buffer"
+	],
+	"name" : "OnigExternalString",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+private
+text
+	^ next text

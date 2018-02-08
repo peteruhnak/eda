@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "EdaGrRule",
+	"category" : "Eda-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"regex",
+		"captures",
+		"scope"
+	],
+	"name" : "EdaGrMatchRule",
+	"type" : "normal"
+}

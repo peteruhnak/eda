@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "VojtechBalik 11/21/2017 22:37",
+	"super" : "FFILibrary",
+	"category" : "Onigmo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"modulePath"
+	],
+	"instvars" : [ ],
+	"name" : "OnigLibrary",
+	"type" : "normal"
+}

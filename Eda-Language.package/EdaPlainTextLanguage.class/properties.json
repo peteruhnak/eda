@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "EdaLanguage",
+	"category" : "Eda-Language",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EdaPlainTextLanguage",
+	"type" : "normal"
+}

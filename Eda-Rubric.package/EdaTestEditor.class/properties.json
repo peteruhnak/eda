@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textModel",
+		"currentFileReference",
+		"textMorph"
+	],
+	"name" : "EdaTestEditor",
+	"type" : "normal"
+}

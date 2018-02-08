@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Eda-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"match",
+		"contentMatch",
+		"includeRule"
+	],
+	"name" : "EdaGrParserContext",
+	"type" : "normal"
+}

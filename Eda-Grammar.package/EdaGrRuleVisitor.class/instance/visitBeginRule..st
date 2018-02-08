@@ -1,0 +1,3 @@
+visiting
+visitBeginRule: anEdaGrBeginRule
+	self subclassResponsibility 

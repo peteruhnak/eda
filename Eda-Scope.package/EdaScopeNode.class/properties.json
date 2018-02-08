@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "VojtechBalik 2/4/2018 15:32",
+	"super" : "Object",
+	"category" : "Eda-Scope",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string",
+		"length",
+		"numberOfAtoms"
+	],
+	"name" : "EdaScopeNode",
+	"type" : "normal"
+}

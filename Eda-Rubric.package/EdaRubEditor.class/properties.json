@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "VojtechBalik 2/8/2018 13:32",
+	"super" : "RubTextEditor",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentFileReference"
+	],
+	"name" : "EdaRubEditor",
+	"type" : "normal"
+}

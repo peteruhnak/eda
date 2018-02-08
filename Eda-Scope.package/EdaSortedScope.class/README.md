@@ -1,0 +1,1 @@
+my nodes are EdaScopeExtentNodes, i keep them sorted using #isDescendantOf:, so #nodesDo: works in correct order

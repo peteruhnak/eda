@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Eda-Scope",
+	"classinstvars" : [
+		"selectors"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EdaTheme",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "RubParagraphDecorator",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text",
+		"replaceStart",
+		"replaceStop",
+		"styler"
+	],
+	"name" : "EdaRubParagraphDecorator",
+	"type" : "normal"
+}

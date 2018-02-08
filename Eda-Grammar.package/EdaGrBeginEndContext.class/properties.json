@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VojtechBalik 12/19/2017 18:13",
+	"super" : "EdaGrParserContext",
+	"category" : "Eda-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EdaGrBeginEndContext",
+	"type" : "normal"
+}
