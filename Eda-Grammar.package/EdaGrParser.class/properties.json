@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "EdaGrRuleVisitor",
+	"category" : "Eda-Grammar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"resultList",
+		"string",
+		"extStr",
+		"index",
+		"contextStack",
+		"keepMatching",
+		"rootRule",
+		"rootScope"
+	],
+	"name" : "EdaGrParser",
+	"type" : "normal"
+}

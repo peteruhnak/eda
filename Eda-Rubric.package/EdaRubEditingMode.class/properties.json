@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "RubEditingMode",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"paragraphDecorator",
+		"language",
+		"autocomplete",
+		"snippetHandler"
+	],
+	"name" : "EdaRubEditingMode",
+	"type" : "normal"
+}

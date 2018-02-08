@@ -1,0 +1,3 @@
+accessing
+formattedBody
+	^ (body withCRs)

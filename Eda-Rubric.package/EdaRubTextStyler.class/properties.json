@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SHTextStyler",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [
+		"scopeDict"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"grammar"
+	],
+	"name" : "EdaRubTextStyler",
+	"type" : "normal"
+}

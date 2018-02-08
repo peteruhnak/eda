@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RubAnnotationDisplayer",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"languageMorph"
+	],
+	"name" : "EdaRubAnnotationDisplayer",
+	"type" : "normal"
+}

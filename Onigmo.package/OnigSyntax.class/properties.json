@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VojtechBalik 11/21/2017 22:36",
+	"super" : "FFIOpaqueObject",
+	"category" : "Onigmo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OnigSyntax",
+	"type" : "normal"
+}

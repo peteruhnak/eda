@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TextAttribute",
+	"category" : "Eda-Rubric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scope"
+	],
+	"name" : "EdaScopeAttribute",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+I represent a single scope name, eg. string.quoted.double.c

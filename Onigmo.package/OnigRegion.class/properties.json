@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "VojtechBalik 11/21/2017 22:44",
+	"super" : "FFIExternalStructure",
+	"category" : "Onigmo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OFFSET_ALLOCATED",
+		"OFFSET_BEG",
+		"OFFSET_END",
+		"OFFSET_NUM_REGS"
+	],
+	"instvars" : [ ],
+	"name" : "OnigRegion",
+	"type" : "normal"
+}

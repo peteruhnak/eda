@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "VojtechBalik 2/6/2018 19:18",
+	"super" : "EdaScopeNode",
+	"category" : "Eda-Scope",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"begin",
+		"end"
+	],
+	"name" : "EdaScopeExtentNode",
+	"type" : "normal"
+}

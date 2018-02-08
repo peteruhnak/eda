@@ -1,0 +1,3 @@
+accessing
+includeRule
+	self subclassResponsibility
