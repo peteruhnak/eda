@@ -1,0 +1,7 @@
+{
+	"instance" : {
+		"testRegex" : " 2/8/2018 23:23:44",
+		"testEmptyStringRegex" : " 2/8/2018 23:23:44"
+	},
+	"class" : { }
+}
