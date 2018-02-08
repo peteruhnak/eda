@@ -1,3 +1,0 @@
-accessing
-contentMatch
-	self subclassResponsibility

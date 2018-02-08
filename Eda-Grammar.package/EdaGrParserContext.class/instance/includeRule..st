@@ -1,3 +1,0 @@
-accessing
-includeRule: anObject
-	self subclassResponsibility

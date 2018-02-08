@@ -1,6 +1,7 @@
 private
 privateStyle: aText
 	| parseResult parser |
+	grammar ifNil: [ ^ aText ].
 	text := self unstyledTextFrom: aText.
 	parser := grammar newParser.
 	parseResult := parser parse: aText string.

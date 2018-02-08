@@ -7,6 +7,7 @@ settingsOn: aBuilder
 	(aBuilder setting: #modulePath)
 		parent: #Onigmo;
 		target: self;
-		type: #String;
+		type: #FilePathEncoder;
 		label: 'Path';
-		description: 'A path to your Onigmo shared library binary'		
+		description: 'A path to your Onigmo shared library binary'
+	
