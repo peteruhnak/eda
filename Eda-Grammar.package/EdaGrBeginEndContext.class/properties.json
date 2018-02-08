@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "VojtechBalik 12/19/2017 18:13",
-	"super" : "EdaGrParserContext",
+	"super" : "Object",
 	"category" : "Eda-Grammar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
