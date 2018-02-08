@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"language" : " 2/8/2018 23:23:42",
+		"launchSnippet" : " 2/8/2018 23:23:42",
+		"setGrammar:" : " 2/8/2018 23:23:42",
+		"loadJson" : " 2/8/2018 23:23:42",
+		"initialize" : " 2/8/2018 23:23:42",
+		"updateTextAreaWhenPlugged" : " 2/8/2018 23:23:42",
+		"initializeKeyCombinations" : " 2/8/2018 23:23:42",
+		"completeOn:" : " 2/8/2018 23:23:42",
+		"updateTextAreaWhenUnplugged" : " 2/8/2018 23:23:42",
+		"editorClass" : " 2/8/2018 23:23:42",
+		"language:" : " 2/8/2018 23:23:42"
+	},
+	"class" : {
+		"menuKeyword" : " 2/8/2018 23:23:42",
+		"editingModeMenuOn:" : " 2/8/2018 23:23:42",
+		"label" : " 2/8/2018 23:23:42",
+		"menuOn:" : " 2/8/2018 23:23:42"
+	}
+}
