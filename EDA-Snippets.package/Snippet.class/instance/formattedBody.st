@@ -1,3 +1,0 @@
-initialization
-formattedBody
-	^ (body withCRs)
