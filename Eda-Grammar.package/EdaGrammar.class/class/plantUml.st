@@ -62,12 +62,49 @@ plantUml
 					yourself).
 	main 
 		add: (EdaGrBeginRule new 
-					regex: '\btitle\b';
+					regex: '([A-Za-z_0-9]+) +((-?->)|(<-?-)) +([A-Za-z_0-9]+)\\s*(:)';
 					scope: 'string.quoted.double.plantuml';
-					captures: (Dictionary newFromPairs: { 0 . 'keyword.control.plantuml' });
+					captures: (Dictionary newFromPairs: 
+					{ 1 . 'constant.string.plantuml' .
+					  2 . 'keyword.control.plantuml' .
+					  5 . 'constant.string.plantuml' });
 					repository: beginRepo).
 
+	beginRepo := EdaGrRepository new.
+	beginRepo
+		add: (EdaGrEndRule new 
+					regex: '"';
+					yourself).
+	main 
+		add: (EdaGrBeginRule new
+					regex: '"';
+					scope: 'string.quoted.double.plantuml';
+					repository: beginRepo;
+					yourself).
 					
+	beginRepo := EdaGrRepository new.
+	beginRepo
+		add: (EdaGrEndRule new 
+					regex: '''';
+					yourself).
+	main 
+		add: (EdaGrBeginRule new
+					regex: '''';
+					scope: 'string.quoted.single.plantuml';
+					repository: beginRepo;
+					yourself).
+	
+	main
+		add: (EdaGrMatchRule new
+					regex: '\b[A-Z]+[A-Za-z_0-9]*\b';
+					scope: 'constant.string.plantuml';
+					yourself).
+					
+	main
+		add: (EdaGrMatchRule new
+					regex: '\b[a-z_]+[A-Za-z_0-9]*\b';
+					scope: 'variable.parameter.plantuml';
+					yourself).
 	
 	^ self new 
 		repository: main;

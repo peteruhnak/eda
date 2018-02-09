@@ -1,27 +1,20 @@
 initialization
 definition
+	"sublime-text monokai theme"
 	^ { 
-		{'entity.name'} . {  } .
-		{'entity.other.inherited-class'} . {  } .
-		{'entity.name.section'} . {  }  .
-		{'entity.name.tag'} . {  } .
-		{'entity.other.attribute-name'} . {  } . 
-		{'variable'} . { TextColor color: (Color r: 0 g: 0 b: 127) } .
-		{'variable.language'} . { TextColor color: (Color r: 0 g: 0 b: 127) } .
-		{'variable.parameter'} . { TextColor color: (Color r: 0 g: 0 b: 127) } .
-		{'variable.function'} . { TextColor color: (Color r: 0 g: 0 b: 127) } .
-		{'constant'} . {  } .
-		{'constant.numeric'} . {  } .
-		{'constant.language'} . {  } .
-		{'constant.character.escape'} . {  } . 
-		{'storage.type'} . {  } . 
-		{'storage.modifier'} . {  } . 
-		{'support'} . {  } .
-		{'keyword'} . { TextColor color: (Color r: 0 g: 127 b: 127) } .
-		{'keyword.control'} . { TextColor color: (Color r: 0 g: 127 b: 127) } .
-		{'keyword.operator'} . { TextColor color: (Color r: 0 g: 127 b: 127) } .
-		{'string'} . { TextColor color: Color orange } .
-		{'comment'} . { TextColor color: Color gray } .
-		{'invalid'} . {  } .
-		{'invalid.deprecated'} . {  }
+		{'entity.name'} . { TextColor color: (Color fromString: '#A6E22E') } .
+		{'entity.name.class'} . { TextColor color: (Color fromString: '#A6E22E') . TextEmphasis underlined } .
+		{'entity.other.inherited-class'} . { TextColor color: (Color fromString: '#A6E22E') . TextEmphasis italic . TextEmphasis underlined } .
+		{'entity.name.tag'} . { TextColor color: (Color fromString: '#F92672') } .
+		{'entity.other.attribute-name'} . { TextColor color: (Color fromString: '#A6E22E') } .
+		{'entity.name.function'} . { TextColor color: (Color fromString: '#A6E22E') } .
+		{'variable.parameter'} . { TextColor color: (Color fromString: '#FD971F') . TextEmphasis italic } .
+		{'constant'} . { TextColor color: (Color fromString: '#AE81FF') } .
+		{'storage'} . { TextColor color: (Color fromString: '#F92672') . TextEmphasis italic } .
+		{'storage.type'} . { TextColor color: (Color fromString: '#66D9EF') . TextEmphasis italic } . 
+		{'support'} . { TextColor color: (Color fromString: '#66D9EF') } .
+		{'keyword'} . { TextColor color: (Color fromString: '#F92672') } .
+		{'string'} . { TextColor color: (Color fromString: '#E6DB74') } .
+		{'comment'} . { TextColor color: (Color fromString: '#75715E') } .
+		{'invalid'} . { TextColor color: (Color fromString: '#F92672') }
 	}

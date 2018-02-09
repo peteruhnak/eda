@@ -12,3 +12,4 @@ completeOn: anInteger
 	textArea model setPrimarySelectionInterval: (anInteger + 1 + snippet size to: anInteger + snippet size).
 	
 	textArea forceCompose.
+	paragraphDecorator refreshStyling.
