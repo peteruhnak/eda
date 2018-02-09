@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VojtechBalik 2/9/2018 15:28",
+	"super" : "EdaLanguage",
+	"category" : "Eda-Language",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EdaGoLanguage",
+	"type" : "normal"
+}
