@@ -3,7 +3,7 @@ formatRepo: repoXML
 	| rules repo repoParser keys|
 	keys := OrderedCollection new. 
 	rules := OrderedCollection new.
-	repo := Repository new.
+	repo := EdaGrRepository new.
 	repoParser := RepoParser new.
 	repoParser tree: self tree.
 	(repoXML xpath: 'key') do: [:each | keys add: each stringValue].
