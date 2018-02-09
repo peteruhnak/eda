@@ -1,0 +1,1 @@
+I am a common interface for visitors, which operate on rules (which form a sort of linked structure)

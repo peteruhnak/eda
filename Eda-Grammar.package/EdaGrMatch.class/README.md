@@ -1,0 +1,1 @@
+I represent a single parsing match. I am returned in a collection as a result of EdaGrParser>>#parse

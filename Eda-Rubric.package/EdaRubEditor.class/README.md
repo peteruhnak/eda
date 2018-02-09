@@ -1,1 +1,1 @@
-i should move all the custom actions here
+A RubEditor handles actions in the editor. I define opening and saving files, which I delegate to EdaEditor

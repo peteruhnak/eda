@@ -1,3 +1,3 @@
-menu
+accessing
 label
 	^ 'Eda'

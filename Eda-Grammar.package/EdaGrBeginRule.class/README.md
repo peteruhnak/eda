@@ -1,0 +1,1 @@
+I represent a begin part of a Begin-End rule. There always has to be a corresponding end rule, which has to be the first rule in my repository.

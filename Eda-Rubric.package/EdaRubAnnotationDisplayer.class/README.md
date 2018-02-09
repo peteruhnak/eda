@@ -1,0 +1,1 @@
+I am a specialization of the Annotation ruler. Compared to my superclass, I remove the option to choose editing mode and add the option to choose a language (EdaLanguage - snippets and grammar)
