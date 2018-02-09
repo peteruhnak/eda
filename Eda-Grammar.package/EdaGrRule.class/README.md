@@ -1,0 +1,1 @@
+I represent a single rule of the tmLanguage grammar.

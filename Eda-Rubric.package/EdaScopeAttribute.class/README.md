@@ -1,0 +1,2 @@
+I am an TextAttribute, representing a scope for a Text.
+When I'm asked to be drawn, I ask the (currently only default) theme for the TextAttributes for a given scope, which are then sequentially applied.

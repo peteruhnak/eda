@@ -1,0 +1,1 @@
+I am a specialization of RubParagraphDecorator to enable custom styling.
