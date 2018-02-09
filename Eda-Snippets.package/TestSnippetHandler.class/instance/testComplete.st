@@ -8,7 +8,7 @@ b:= a complete: 'a'.
 self assert: (b = ('a', Character tab asString)).
 
 b:= a complete: 'aaa'.
-self assert: (b = ('aaa',Character tab asString )).
+self assert: (b = ('aaa', Character tab asString )).
 
 b:= a complete: 'start'.
 self assert: (b = '@startuml
