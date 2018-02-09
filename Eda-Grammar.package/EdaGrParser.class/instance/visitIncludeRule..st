@@ -1,6 +1,7 @@
 visiting
 visitIncludeRule: includeRule
-	includeRule repository rulesDo: [ :rule | 
+	includeRule repository ifNotNil: [ :r | 
+		r rulesDo: [ :rule | 
 		keepMatching ifFalse: [ ^ self ].
-		rule accept: self ]
+		rule accept: self ] ]
 	
