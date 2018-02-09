@@ -1,4 +1,4 @@
-I represent a scope of a text, eg
+I represent a scope, eg
 source.c
 string.quoted.double
 character.constant
