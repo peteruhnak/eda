@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"repository"
+		"repository",
+		"scope"
 	],
 	"name" : "SyntaxParser",
 	"type" : "normal"

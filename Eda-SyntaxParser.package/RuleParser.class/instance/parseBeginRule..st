@@ -20,7 +20,7 @@ parseBeginRule: aBeginRuleXML
 		beginRule repository addRuleToBeginning: (self parseEndRule: aBeginRuleXML).
 	 ]
 	ifFalse:[
-		beginRule repository: (Repository createWithRule: (self parseEndRule: aBeginRuleXML))
+		beginRule repository: (EdaGrRepository createWithRule: (self parseEndRule: aBeginRuleXML))
 	].
 	
 	^ beginRule.
