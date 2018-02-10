@@ -2,6 +2,7 @@ visiting
 visitMatchRule: matchRule
 	| onigRegion matchedCount |
 	onigRegion := OnigRegion new.
+	onigRegion autoRelease.
 	matchedCount := matchRule regex matchExternal: extStr at: index region: onigRegion.
 	(matchedCount = -1) ifTrue: [ ^ self ]. "nothing matched, move on"
 	"add a Match representing the whole match"

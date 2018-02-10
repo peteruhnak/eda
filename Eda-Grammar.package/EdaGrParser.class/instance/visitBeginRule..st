@@ -2,6 +2,7 @@ visiting
 visitBeginRule: beginRule
 	| onigRegion matchedCount scopeMatch contentScopeMatch |
 	onigRegion := OnigRegion new.
+	onigRegion autoRelease.
 	matchedCount := beginRule regex matchExternal: extStr at: index region: onigRegion.
 	(matchedCount = -1) ifTrue: [ ^ self ]. "nothing matched, move on"
 	"add Matches representing the whole begin-end"

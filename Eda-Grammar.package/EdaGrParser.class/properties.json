@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "VojtechBalik 2/9/2018 14:32",
+	"commentStamp" : "VojtechBalik 2/10/2018 15:32",
 	"super" : "EdaGrRuleVisitor",
 	"category" : "Eda-Grammar",
 	"classinstvars" : [ ],
