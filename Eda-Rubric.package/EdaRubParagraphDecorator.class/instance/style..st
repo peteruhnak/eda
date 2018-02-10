@@ -5,6 +5,6 @@ style: aText
 		on: Error
 		do: [ :ex | 
 			ex logCr.
-			^ aText ] "
+			^ aText ]"
 	
 	self styler ifNotNil: [ :aStyler | aStyler styleInBackgroundProcess: aText ]
