@@ -13,7 +13,8 @@
 		"contextStack",
 		"keepMatching",
 		"rootRule",
-		"rootScope"
+		"rootScope",
+		"onigRegion"
 	],
 	"name" : "EdaGrParser",
 	"type" : "normal"
