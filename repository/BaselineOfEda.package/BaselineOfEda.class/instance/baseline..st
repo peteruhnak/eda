@@ -28,9 +28,7 @@ baseline: spec
 				with: [ spec requires: #('Eda-Grammar' 'Eda-Language' 'Eda-Scope' 'Eda-Snippets') ].
 			spec package: 'Eda-Scope'.
 			spec package: 'Eda-Snippets' with: [ spec requires: #('NeoJSON') ].
-			spec
-				package: 'Eda-SyntaxParser'
-				with: [ spec requires: #('Eda-SyntaxParser' 'XMLParser') ].
+			spec package: 'Eda-SyntaxParser' with: [ spec requires: #('Onigmo' 'XMLParser') ].
 			spec
 				group: 'default'
 				with: #('Eda-Grammar' 'Eda-Language' 'Eda-Rubric' 'Eda-Scope' 'Eda-Snippets' 'Eda-SyntaxParser') ]
