@@ -1,1 +1,0 @@
-I represent Onigmo character encoding.
