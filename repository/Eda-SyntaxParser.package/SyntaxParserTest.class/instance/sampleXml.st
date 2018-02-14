@@ -1,0 +1,40 @@
+tests
+sampleXml
+	^ '<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>st</string>
+	</array>
+	<key>name</key>
+	<string>Smalltalk</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#test</string>
+		</dict>
+	</array>
+    <key>repository</key>
+    <dict>
+		<key>test</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\b(test)\b</string>
+					<key>name</key>
+					<string>storage.type.source.test</string>
+				</dict>
+			</array>
+		</dict>
+    </dict>
+	<key>scopeName</key>
+	<string>source.test</string>
+	<key>uuid</key>
+	<string>3018CF4D-D2EE-4290-8FC6-41C6FEE946A6</string>
+</dict>
+</plist>'

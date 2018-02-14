@@ -1,3 +1,3 @@
 accessing
 loadFile: path
-	^ (NeoJSONReader fromString: ((StandardFileStream readOnlyFileNamed: path) contents) ).
+	^ NeoJSONReader fromString: path asFileReference contents
