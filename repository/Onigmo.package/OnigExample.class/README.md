@@ -1,1 +1,0 @@
-Some examples of how to use this minimal Onigmo regular expression library binding.

@@ -1,1 +1,0 @@
-I represent various Onigmo regular expression syntaxes.
