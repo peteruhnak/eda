@@ -1,0 +1,22 @@
+SmalltalkCISpec {
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#platforms : [
+				#pharo
+			],
+			#baseline : 'Eda',
+			#directory : 'repository',
+			#load : [ 'default' ]
+		}
+	],
+	#testing : {
+		#coverage : {
+			#packages : [
+				'Eda.*'
+			]
+		},
+		#packages : [
+			'Eda.*'
+		]
+	}
+}

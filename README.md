@@ -1,13 +1,18 @@
-## Weekly reports for both teams
+# EDA
+[![Build Status][travis-badge]][travis] [![Coverage Status][coveralls-badge]][coveralls]
 
-**13.11. - 20.11.** - [1. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-1)
+Pharo Editor with TextMate syntax highlighting support.
 
-**20.11. - 27.11.** - [2. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-2)
+## Installation
 
-**27.11. - 04.12.** - [3. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-3)
+```smalltalk
+Metacello new
+	baseline: 'Eda';
+	repository: 'github://peteruhnak/eda/repository';
+	load
+```
 
-**04.12. - 11.12.** - [4. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-4)
-
-**11.12. - 18.12.** - [5. week](https://gitlab.fit.cvut.cz/zivnuter/EDA/wikis/weekly-status#week-5)
-
-
+[travis-badge]: https://travis-ci.org/peteruhnak/eda.svg?branch=master
+[travis]: https://travis-ci.org/peteruhnak/eda
+[coveralls-badge]: https://coveralls.io/repos/github/peteruhnak/eda/badge.svg?branch=master
+[coveralls]: https://coveralls.io/github/peteruhnak/eda?branch=master
