@@ -3,3 +3,6 @@ sudo: false
 
 os:
   - linux
+
+smalltalk:
+  - Pharo-6.1
