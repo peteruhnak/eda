@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PeterUhnak 2/14/2018 16:01",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfEda",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfEda",
+	"type" : "normal"
+}
