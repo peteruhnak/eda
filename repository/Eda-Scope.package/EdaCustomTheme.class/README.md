@@ -1,0 +1,1 @@
+I am a theme typically generated from a tmTheme file by a ThemeReader.

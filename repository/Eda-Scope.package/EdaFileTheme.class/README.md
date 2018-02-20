@@ -1,0 +1,1 @@
+I am a theme that reads its definition from an external tmTheme file.

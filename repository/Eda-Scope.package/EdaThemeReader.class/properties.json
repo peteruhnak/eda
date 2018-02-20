@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "VojtechBalik 2/9/2018 13:52",
-	"super" : "EdaTheme",
+	"commentStamp" : "PeterUhnak 2/20/2018 17:28",
+	"super" : "Object",
 	"category" : "Eda-Scope-Theme",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "EdaDefaultTheme",
+	"name" : "EdaThemeReader",
 	"type" : "normal"
 }

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Eda-Scope-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"settings"
+	],
+	"name" : "EdaStyleRuleSettingsTest",
+	"type" : "normal"
+}

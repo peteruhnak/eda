@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "PeterUhnak 2/20/2018 17:22",
+	"super" : "Object",
+	"category" : "Eda-Scope-Theme",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"scope",
+		"settings"
+	],
+	"name" : "EdaStyleRule",
+	"type" : "normal"
+}
