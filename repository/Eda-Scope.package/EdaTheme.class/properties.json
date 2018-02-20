@@ -1,13 +1,16 @@
 {
 	"commentStamp" : "VojtechBalik 2/9/2018 13:52",
 	"super" : "Object",
-	"category" : "Eda-Scope",
+	"category" : "Eda-Scope-Theme",
 	"classinstvars" : [
-		"selectors"
+		"selectors",
+		"current"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"selectors"
+	],
 	"name" : "EdaTheme",
 	"type" : "normal"
 }

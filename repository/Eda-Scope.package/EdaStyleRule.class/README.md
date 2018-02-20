@@ -1,0 +1,1 @@
+I am a styling rule for a specific scope.
