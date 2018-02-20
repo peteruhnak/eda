@@ -14,7 +14,6 @@ testSelects
 	rank3 := selector3 selects: scope.
 	emptyRank := emptySelector selects: scope.
 	badRank := badSelector selects: scope.
-	1halt.
 	
 	self assert: rank1 > rank2.
 	self assert: rank2 > rank3.
