@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VojtechBalik 2/26/2018 00:20",
+	"super" : "Object",
+	"category" : "Eda-PList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EdaPListReader",
+	"type" : "normal"
+}
