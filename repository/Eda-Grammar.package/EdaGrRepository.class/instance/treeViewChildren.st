@@ -1,0 +1,3 @@
+gtInspectorExtensions
+treeViewChildren
+	^ rules
