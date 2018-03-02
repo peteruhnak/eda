@@ -36,5 +36,5 @@ baseline: spec
 			spec package: 'Eda-SyntaxParser' with: [ spec requires: #('Onigmo' 'XMLParser' 'XPath') ].
 			spec package: 'Eda-Debugging' with: [ spec requires: 'Bloc' ].
 			spec group: 'core' with: #('Eda-Grammar' 'Eda-Language' 'Eda-Rubric' 'Eda-Scope' 'Eda-Snippets' 'Eda-SyntaxParser').
-			spec group: 'debugging' with: #('Eda-Debugging').
+			spec group: 'debugging' with: #('core' 'Eda-Debugging').
 			spec group: 'default' with: #('core') ]
