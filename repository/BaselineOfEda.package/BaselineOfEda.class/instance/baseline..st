@@ -6,7 +6,7 @@ baseline: spec
 		do: [ spec
 				baseline: 'Bloc'
 				with: [ spec
-						repository: 'https://github.com/pharo-graphics/Bloc';
+						repository: 'https://github.com/pharo-graphics/Bloc/src';
 						loads: #(core) ].
 			spec
 				project: 'NeoJSON'
