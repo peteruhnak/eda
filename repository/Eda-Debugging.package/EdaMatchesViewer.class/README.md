@@ -1,0 +1,1 @@
+I visualize parsed matches in a nice spreadsheet-like overview.

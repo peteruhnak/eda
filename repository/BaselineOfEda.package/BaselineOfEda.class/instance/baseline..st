@@ -4,14 +4,17 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
+				baseline: 'Bloc'
+				with: [ spec
+						repository: 'https://github.com/pharo-graphics/Bloc';
+						loads: #(core) ].
+			spec
 				project: 'NeoJSON'
 				with: [ spec
 						className: 'ConfigurationOfNeoJSON';
 						repository: 'http://mc.stfx.eu/Neo';
 						version: #stable ].
-			spec
-				baseline: 'Onigmo'
-				with: [ spec repository: 'github://peteruhnak/Onigmo/repository' ].
+			spec baseline: 'Onigmo' with: [ spec repository: 'github://peteruhnak/Onigmo/repository' ].
 			spec
 				project: 'XMLParser'
 				with: [ spec
@@ -26,15 +29,12 @@ baseline: spec
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/PharoExtras/XPath/main/' ].
 			spec package: 'Eda-Grammar' with: [ spec requires: #('Onigmo') ].
-			spec
-				package: 'Eda-Language'
-				with: [ spec requires: #('Eda-Grammar' 'Eda-SyntaxParser') ].
-			spec
-				package: 'Eda-Rubric'
-				with: [ spec requires: #('Eda-Grammar' 'Eda-Language' 'Eda-Scope' 'Eda-Snippets') ].
+			spec package: 'Eda-Language' with: [ spec requires: #('Eda-Grammar' 'Eda-SyntaxParser') ].
+			spec package: 'Eda-Rubric' with: [ spec requires: #('Eda-Grammar' 'Eda-Language' 'Eda-Scope' 'Eda-Snippets') ].
 			spec package: 'Eda-Scope'.
 			spec package: 'Eda-Snippets' with: [ spec requires: #('NeoJSON') ].
 			spec package: 'Eda-SyntaxParser' with: [ spec requires: #('Onigmo' 'XMLParser' 'XPath') ].
-			spec
-				group: 'default'
-				with: #('Eda-Grammar' 'Eda-Language' 'Eda-Rubric' 'Eda-Scope' 'Eda-Snippets' 'Eda-SyntaxParser') ]
+			spec package: 'Eda-Debugging' with: [ spec requires: 'Bloc' ].
+			spec group: 'core' with: #('Eda-Grammar' 'Eda-Language' 'Eda-Rubric' 'Eda-Scope' 'Eda-Snippets' 'Eda-SyntaxParser').
+			spec group: 'debugging' with: #('Eda-Debugging').
+			spec group: 'default' with: #('core') ]
