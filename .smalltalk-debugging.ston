@@ -6,7 +6,7 @@ SmalltalkCISpec {
 			],
 			#baseline : 'Eda',
 			#directory : 'repository',
-			#load : [ 'default' ]
+			#load : [ 'debugging' ]
 		}
 	],
 	#testing : {

@@ -6,3 +6,10 @@ os:
 
 smalltalk:
   - Pharo-6.1
+
+matrix:
+  include:
+  - smalltalk: Pharo-6.1
+    smalltalk_config: .smalltalk.ston
+  - smalltalk: Pharo-6.1
+    smalltalk_config: .smalltalk-debugging.ston
