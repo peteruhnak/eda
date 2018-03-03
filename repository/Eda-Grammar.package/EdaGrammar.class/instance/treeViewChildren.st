@@ -1,5 +1,3 @@
 gtInspectorExtensions
 treeViewChildren
-	^ self repository
-		ifNil: [ { } ]
-		ifNotNil: [ :r | { r } ]
+	^ self repository ifNil: [ {} ] ifNotNil: [ :r | r rules ]

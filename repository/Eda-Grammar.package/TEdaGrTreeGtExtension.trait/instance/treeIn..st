@@ -1,6 +1,7 @@
 gtInspectorExtensions
 treeIn: aComposite
-	aComposite tree 
+	aComposite tree
 		title: 'Tree';
-		display: [ { self } ];
-		children: [ :each | each treeViewChildren ]
+		display: [ {self} ];
+		children: [ :each | each treeViewChildren ];
+		format: [ :each | each treeViewLabelText ]
