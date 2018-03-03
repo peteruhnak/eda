@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "VojtechBalik 2/9/2018 14:13",
-	"super" : "Object",
-	"category" : "Eda-Grammar",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TEdaGrTreeGtExtension classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"rules"
 	],
 	"name" : "EdaGrRepository",
-	"type" : "normal"
+	"commentStamp" : "VojtechBalik 2/9/2018 14:13",
+	"super" : "Object",
+	"traitcomposition" : "TEdaGrTreeGtExtension",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Eda-Grammar"
 }
